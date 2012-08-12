@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10px"
+        android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="40px"
+        android:layout_marginTop="20px"
+        android:onClick="moveToCreate"
+        android:text="Create your Bussiness QR" />
+    
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="40px"
+        android:text="Scan a business QR"
+        android:onClick="scanCode" />
+
+    <Button
+        android:id="@+id/trackme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="40px"
+        android:text="Switch to Track Me mode" />
+     <Button
+        android:id="@+id/events"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="My Events" 
+        android:onClick="moveToEvents"/>
+        
+    </LinearLayout>
+
+
+</RelativeLayout>

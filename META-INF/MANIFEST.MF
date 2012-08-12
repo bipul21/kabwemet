@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Kab_We_Met
+Bundle-SymbolicName: Kab_We_Met
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: Kab We Met.jar,
+ bipulj/Documents/zxing/core/core.jar
